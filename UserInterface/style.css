@@ -1,0 +1,91 @@
+body {
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+.navbar {
+    background-color: #343a40; /* Dark navbar color */
+    background:#343a40;
+}
+.card-wrapper {
+    margin-bottom: 20px;
+    background:#343a40;
+}
+
+.custom-circle-image {
+    width: 15vw;
+    height: 15vw;
+    background-color: #343a40;
+  }
+
+  .custom-circle-image img {
+    object-fit: cover;
+  }
+
+.card-body {
+    background-color: #343a40; /* Dark background for card body */
+}
+
+.card-title {
+    color: #ffffff; /* Light text color for card titles */
+}
+
+#divClassTable {
+    background-color: #343a40; /* Dark background for the table section */
+}
+
+/* Error section */
+#error {
+    color: #ffffff; /* Light text color */
+    padding: 10px; /* Smaller padding for error section */
+    height: 30px;
+}
+
+/* Table styling */
+#divClassTable {
+    background-color: #343a40; /* Dark background for the table section */
+    padding: 20px;
+}
+
+#classTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#classTable th,
+#classTable td {
+    border: 1px solid #6c757d; /* Border color for table cells */
+    padding: 8px;
+}
+
+#classTable th {
+    background-color: #212529; /* Dark background for table headers */
+    color: #ffffff; /* Light text color for table headers */
+}
+
+#classTable tr:nth-child(even) {
+    background-color: #495057; /* Darker background for even rows */
+}
+
+#classTable tr:nth-child(odd) {
+    background-color: #343a40; /* Dark background for odd rows */
+}
+
+
+/* Styling dropzone area */
+.dropzone {
+    background: #343a40; /* Dark dropzone background color */
+    border: 2px dashed #6c757d; /* Border color */
+    border-radius: 5px;
+    color: #6c757d; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.dropzone .dz-message {
+    font-size: 16px;
+}
+
+.dropzone .dz-preview .dz-image {
+    border-radius: 50%; /* Circular shape for image previews */
+}
